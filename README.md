@@ -15,20 +15,20 @@ After first iteration, it will set up a Rest API at localhost:5000
 * /api/v1.0/update [GET]
 It updates the submissions of the current N pages
 
-* /api/v1.0/top/comments
-It returns the top 10 submissions by comment
+* /api/v1.0/top/comments [GET]
+ It returns the top 10 submissions by comment
 
-* /api/v1.0/top/comments/external
-It returns the top 10 external submissions by comment
+* /api/v1.0/top/comments/external [GET]
+ It returns the top 10 external submissions by comment
 
-* /api/v1.0/top/comments/internal
-It returns the top 10 internal submissions by comment
+* /api/v1.0/top/comments/internal [GET]
+ It returns the top 10 internal submissions by comment
 
-* /api/v1.0/top/score
-It returns the top 10 submissions by score
+* /api/v1.0/top/score [GET]
+ It returns the top 10 submissions by score
 
-* /api/v1.0/top/score/external
-It returns the top 10 external submissions by score
+* /api/v1.0/top/score/external [GET]
+ It returns the top 10 external submissions by score
 
-* /api/v1.0/top/score/internal
-It returns the top 10 internal submissions by score
+* /api/v1.0/top/score/internal [GET]
+ It returns the top 10 internal submissions by score
